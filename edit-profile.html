@@ -3,94 +3,86 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Feed | Instajeju</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <title>Edit Profile | Instajeju</title>
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
 
 <body>
-  <nav class="navigation">
-    <a href="feed.html"><img src="images/logo.png" class="navigation__logo"></a>
-    <input type="text" placeholder="Search" class="navigation__input">
-    <div class="navigation__icons">
-      <a href="explore.html" class="navigation__links"><i class="fa fa-compass"></i></a>
-      <a href="#" class="navigation__links"><i class="fa fa-heart-o"></i></a>
-      <a href="profile.html" class="navigation__links"><i class="fa fa-user-o"></i></a>
-    </div>
+  <nav class="navigation"> <a href="feed.html"><img src="images/logo.png" class="navigation__logo"></a> <input type="text"
+           placeholder="Search"
+           class="navigation__input">
+    <div class="navigation__icons"> <a href="explore.html"
+         class="navigation__links"><i class="fa fa-compass"></i></a> <a href="#"
+         class="navigation__links"><i class="fa fa-heart-o"></i></a> <a href="profile.html"
+         class="navigation__links"><i class="fa fa-user-o"></i></a> </div>
   </nav>
-
   <main class="edit-profile">
-    <div class="edit-profile__name">
-      <img src="images/avatar.jpg" class="edit-profile__thumb" />
-      <h3 class="edit-profile__username">serranoarevalo</h3>
-    </div>
-
+    <div class="edit-profile__name"> <img src="images/avatar.jpg"
+           class="edit-profile__thumb" />
+      <h3 class="edit-profile__username">serranoarevalo</h3> </div>
     <ul class="edit-profile__list">
-      <form action="profile.html" method="get">
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Name</span><input type="text"></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Username</span>
-          <input type="text" placeholder="serranoarevalo" required /></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Website</span>
-          <input type="text"></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Bio</span>
-          <textarea name="edit__bio"></textarea></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Email</span>
-          <input type="email" required></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Phone Number</span>
-          <input type="text"></li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Gender</span>
-          <select>
-            <option value="uncertain">Choose an Option</option>
+      <form action="profile.html"
+            method="get">
+        <li class="edit-profile__list-item"> <label for="name"
+                 class="edit-profile__type">Name</label> <input id="name"
+                 type="text"> </li>
+        <li class="edit-profile__list-item"> <label for="username"
+                 class="edit-profile__type">Username</label> <input id="username"
+                 type="text"
+                 value="serranoarevalo"
+                 required /></li>
+        <li class="edit-profile__list-item"> <label for="website"
+                 class="edit-profile__type">Website</label> <input id="website"
+                 type="url"></li>
+        <li class="edit-profile__list-item"> <label for="bio"
+                 class="edit-profile__type">Bio</label> <textarea id="bio"
+                    name="edit__bio"></textarea></li>
+        <li class="edit-profile__list-item"> <label for="email"
+                 class="edit-profile__type">Email</label> <input id="email"
+                 type="email"
+                 required></li>
+        <li class="edit-profile__list-item"> <label for="phone-number"
+                 class="edit-profile__type">Phone Number</label> <input id="phone-number"
+                 type="text"></li>
+        <li class="edit-profile__list-item"> <label for="gender"
+                 class="edit-profile__type">Gender</label> <select id="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
-          </select>
-        </li>
-        <li class="edit-profile__list-item">
-          <span class="edit-profile__type">Similar Account<br/>Suggestions</span>
-          <input type="checkbox" id="sugesstFollowers" name="subscribe" value="similar_accounts">
-          <label for="suggestFollowers">Suggest Similar accounts to <br/>your user account</label>
-        </li>
-        <!--
-        <input class="mywidth">
-        <textarea class="mywidth"></textarea> -->
-
-        <input type="submit" value="Edit">
-
-      </form>
+            <option value="dont-know" selected>Not specified</option>
+          </select> </li>
+        <li class="edit-profile__list-item"> <span class="edit-profile__type">Similar Account Suggestions</span> <input type="checkbox"
+                 id="similar"
+                 name="subscribe"
+                 value="similar_accounts"> <label for="similar">Suggest Similar accounts to your user account</label> </li> <input type="submit"
+               value="Submit"> </form>
     </ul>
     </div>
-
-
-
-
   </main>
-
-
-
   <footer class="footer">
     <nav class="footer__nav">
       <ul class="footer__list">
-        <li class="footer__list-item"><a href="" class="footer__link">about us</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">b</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">c</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">d</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">e</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">f</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">g</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">h</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">i</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">j</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">about us</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">support</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">blog</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">press</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">api</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">jobs</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">privacy</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">terms</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">directory</a></li>
+        <li class="footer__list-item"><a href="#"
+             class="footer__link">language</a></li>
       </ul>
-    </nav>
-    <span class="footer_copy">&copy; 2017 instagram</span>
-  </footer>
-
+    </nav> <span class="footer__copy">© 2017 instagram</span> </footer>
 </body>
 
 </html>
