@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Profile | Instajeju</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8" />
+  <title>Profile | Instaclone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -18,52 +18,44 @@
     </div>
   </nav>
 
-
   <main class="profile">
-
-    <div class="profile__header">
-      <img src="images/avatar.jpg" class="profile__thumb" />
-
+    <header class="profile__header">
+      <img src="images/avatar.jpg" />
       <div class="profile__info">
         <div class="profile__name">
-          <span class="profile__username profile__username--size-main">serranoarevalo</span>
-          <div class="profile__change">
-            <button class="profile__edit">Edit Profile</button>
-            <i class="fa fa-cog"></i>
+          <h3 class="profile__username">GregreJangre</h3>
+          <a href="edit-profile.html">Edit Profile</a>
+          <i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+        <ul class="profile__stats">
+          <li class="profile__stat"><span class="profile__stat-number">0</span> posts</li>
+          <li class="profile__stat"><span class="profile__stat-number">19</span> followers</li>
+          <li class="profile__stat"><span class="profile__stat-number">1300</span> following</li>
+        </ul>
+        <p class="profile__bio">
+          <span class="profile__bio-name">GregreJangre</span> Traveling everywhere.afnkja fk;fkv jf asfh ksbflef os dfbaf uwhef sd
+          <a class="profile__domain" href="#">www.clamme.xyz</a>
+        </p>
+      </div>
+    </header>
+    <div class="profile__images">
+      <div class="profile__image-row">
+        <div class="profile__image">
+          <img src="images/feedPhoto.jpg" />
+          <div class="profile__image-overlay">
+            <div class="profile__image-number">
+              <i class="fa fa-heart"></i>
+              <span>456</span>
+            </div>
+            <div class="profile__image-number">
+              <i class="fa fa-comment"></i>
+              <span>666</span>
+            </div>
           </div>
         </div>
-
-        <ul class="profile__activity">
-          <li class="profile__posts">
-            <span class="profile__activty-number">313</span>
-            <span class="profile__activity-type">posts</span>
-          </li>
-          <li class="profile__followers">
-            <span class="profile__activty-number">4,319</span>
-            <span class="profile__activity-type">followers</span>
-          </li>
-          <li class="profile__following">
-            <span class="profile__activty-number">43</span>
-            <span class="profile__activity-type">following</span>
-          </li>
-        </ul>
-
-        <div class="profile__description">
-          <span class="profile__username profile__username--size-content">Nicolas Serrano Arevalo</span>
-          <p class="profile__whoami">Traveling the world forever. Previously:Bagan, Myanmar</p>
-          <a class="profile__website" href="http://serranoarevalo.com/">serranoarevalo.com</a>
-        </div>
       </div>
-
     </div>
-
-
-    <div class="profile__photos">
-      <img src="images/feedPhoto.jpg" />
-    </div>
-
   </main>
-
 
 
   <footer class="footer">
