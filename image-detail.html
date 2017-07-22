@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Feed | Instajeju</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8" />
+  <title>Image-Detail | Instaclone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
@@ -19,23 +19,17 @@
     </div>
   </nav>
 
-  <main class="feed">
+  <main class="image-detail">
 
-    <div class="photo">
-      <header class="photo__header">
-        <a href="profile.html" class="photo__thumb"><img src="images/avatar.jpg"></a>
-        <span class="photo__username">Mark Kim</span>
-      </header>
-
-      <a href="image-detail.html"><img src="images/feedPhoto.jpg" class="photo__image"></a>
+    <div class="photo photo--detail">take everything from photo, but make it little bit different
+      <img src="images/feedPhoto.jpg" class="photo__image">
 
       <div class="photo__info">
-        <div class="photo__actions">
-          <i class="fa fa-heart"></i>
-          <i class="fa fa-comment-o"></i>
-        </div>
-
-        <span class="photo__likes">5,393 likes</span>
+        <header class="photo__header">
+          <a href="profile.html" class="photo__thumb"><img src="images/avatar.jpg"></a>
+          <span class="photo__username">Mark Kim</span>
+          <span class="photo__place">Koh Phi Phi Beach, Thailand</span>
+        </header>
 
         <ul class="photo__comments">
           <li class="photo__comment">
@@ -52,19 +46,25 @@
           </li>
           <li class="photo__comment">
             <span class="photo__comment-user">daniel617</span>
-            <span class="photo__comment-words">
-              Bamboo By <a href="" class="photo__comment-tagging">@baby23</a>
+            <span class="photo__comments-words">
+              Tatoo By <a href="" class="photo__comment-tagging">@tatooman123</a>
             </span>
           </li>
           <li class="photo__comment">
             <span class="photo__comment-user">hithere</span>
             <span class="photo__comment-words">
-              Kaboo By <a href="" class="photo__comment-tagging">@monkey617</a>
+              Tatoo By <a href="" class="photo__comment-tagging">@monkey617</a>
             </span>
           </li>
         </ul>
 
-        <span class="photo__date">12 hours ago</span>
+
+        <div class="photo__actions">
+          <i class="fa fa-heart"></i>
+          <i class="fa fa-comment-o"></i>
+        </div>
+        <span class="photo__likes">702 likes</span>
+        <span class="photo__date">june 23, 2016</span>
 
         <div class="photo__add-comment">
           <textarea placeholder="Add a comment..."></textarea>
@@ -74,8 +74,10 @@
       </div>
     </div>
 
-  </main>
+    </div>
 
+
+  </main>
 
 
   <footer class="footer">
