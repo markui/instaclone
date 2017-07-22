@@ -7,11 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS</title>
   <style>
-    html,
-    body {
+    html {
       margin: 0;
       padding: 0;
-      height: 100%;
     }
 
     body {
@@ -19,17 +17,19 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      height: 500%;
     }
     /*no margin to the green box*/
 
     .box {
       background-color: yellow;
       width: 30%;
-      height: 30%;
+      height: 300px;
       box-sizing: border-box;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
     }
 
     .child {
@@ -42,6 +42,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      position: absolute;
+      top: 10%;
+      left: 5%;
     }
     /*#one {
       align-self: flex-start;
@@ -57,30 +60,6 @@
 <body>
   <div class="box" id="one">
     <div class="child">1</div>
-  </div>
-  <div class="box" id="two">
-    <div class="child">2</div>
-  </div>
-  <div class="box" id="three">
-    <div class="child">3</div>
-  </div>
-  <div class="box" id="one">
-    <div class="child">1</div>
-  </div>
-  <div class="box" id="two">
-    <div class="child">2</div>
-  </div>
-  <div class="box" id="three">
-    <div class="child">3</div>
-  </div>
-  <div class="box" id="one">
-    <div class="child">1</div>
-  </div>
-  <div class="box" id="two">
-    <div class="child">2</div>
-  </div>
-  <div class="box" id="three">
-    <div class="child">3</div>
   </div>
 </body>
 
