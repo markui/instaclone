@@ -16,13 +16,16 @@
 
     body {
       background-color: red;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
     /*no margin to the green box*/
 
     .box {
       background-color: yellow;
-      width: 25%;
-      height: 100%;
+      width: 30%;
+      height: 30%;
       box-sizing: border-box;
       display: flex;
       justify-content: center;
@@ -31,17 +34,53 @@
 
     .child {
       background-color: green;
-      width: 25%;
-      height: 20%;
+      width: 30%;
+      height: 30%;
       border: 2px dashed blue;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+    /*#one {
+      align-self: flex-start;
+    }
+
+    #three {
+      align-self: flex-end;
+    }*/
 
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <div class="child"></div>
+  <div class="box" id="one">
+    <div class="child">1</div>
+  </div>
+  <div class="box" id="two">
+    <div class="child">2</div>
+  </div>
+  <div class="box" id="three">
+    <div class="child">3</div>
+  </div>
+  <div class="box" id="one">
+    <div class="child">1</div>
+  </div>
+  <div class="box" id="two">
+    <div class="child">2</div>
+  </div>
+  <div class="box" id="three">
+    <div class="child">3</div>
+  </div>
+  <div class="box" id="one">
+    <div class="child">1</div>
+  </div>
+  <div class="box" id="two">
+    <div class="child">2</div>
+  </div>
+  <div class="box" id="three">
+    <div class="child">3</div>
   </div>
 </body>
 
