@@ -6,3 +6,18 @@ body {
 input:focus {
   outline: none;
 }
+
+main {
+  animation: .5s popIn ease-out;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
