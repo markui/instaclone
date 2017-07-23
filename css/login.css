@@ -39,6 +39,11 @@
 
 .login .login__box--transparent .login__appstore {
   height: 36px;
+  transition: all .5s linear
+}
+
+.login__appstore:hover {
+  transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
 }
 
 .login .login__box form input {
@@ -50,11 +55,12 @@
   border: 1px solid #efefef;
   border-radius: 3px;
   font-size: 14px;
+  transition: all .5s ease-in
 }
 
 .login .login__box form input:focus {
   outline: none;
-  border: 1px solid #b2b2b2;
+  border: 2px solid #b2b2b2;
 }
 
 .login .login__box form input[type="submit"] {
@@ -64,6 +70,11 @@
   background: #3897f0;
   color: white;
   border: 0;
+  transition: all 3s ease-in-out;
+}
+
+.login .login__box form input[type="submit"]:hover {
+  border: 2px solid #bbb;
 }
 
 
