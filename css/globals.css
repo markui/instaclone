@@ -2,3 +2,7 @@ body {
   background-color: #fafafa;
   font-family: 'Open Sans', sans-serif;
 }
+
+input:focus {
+  outline: none;
+}

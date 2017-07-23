@@ -66,12 +66,37 @@
   border: 0;
 }
 
+
+/*OR divider*/
+
 .login .login__box .login__divider {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
   margin: 20px 0;
   color: #999;
+  width: 100%;
+  position: relative;
+}
+
+.login__divider:before {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+
+.login__divider:after {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 7px;
+  right: 0;
 }
 
 .login .login__fb-link {

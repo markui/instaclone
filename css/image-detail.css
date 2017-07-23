@@ -1,0 +1,22 @@
+.photo--detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+}
+
+.photo--detail .photo__image {
+  min-height: 50%;
+  width: 60%;
+}
+
+.photo--detail .photo__info {
+  width: 40%;
+}
+
+.photo__header .photo__thumb img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
