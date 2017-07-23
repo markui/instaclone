@@ -111,3 +111,20 @@
 .photo__add-comment i {
   cursor: pointer;
 }
+
+.heart-pumping {
+  color: red;
+  animation: 1s pumping infinite linear
+}
+
+@keyframes pumping {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
